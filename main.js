@@ -1,4 +1,5 @@
 //////////*String-1*//////////
+/*
 let s = 65;
 let str;
 let n = +prompt("n sonni kiriting__");
@@ -6,7 +7,23 @@ for (let i = 0; i < n; i++) {
   srt = str.codePointAt(s + i);
   console.log(srt);
 }
+*/
 //////////*String-2*//////////
+/*
+function Charact(charact) {
+  if (charact >= "0" && charact < "10") {
+    return "digit";
+  } else if (
+    (charact >= "a" && charact <= "z") ||
+    (charact >= "A" && charact <= "Z")
+  ) {
+    return "lotin";
+  } else {
+    return 0;
+  }
+}
+console.log(Charact("2"));
+*/
 //////////*String-3*//////////
 /*
 let s = prompt("String kiriting");
@@ -38,8 +55,6 @@ console.log(str2);
 //////////*String-13*/////////
 //////////*String-14*/////////
 //////////*String-15*/////////
-//////////*String-16*/////////
-//////////*String-17*/////////
 
 /*
 let str = prompt("String kiriting");
