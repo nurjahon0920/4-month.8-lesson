@@ -103,7 +103,13 @@ console.log(getInverseNumber(n));
 //////////*String-14*/////////
 
 //////////*String-15*/////////
+/*
+let str = prompt("String kiriting");
+let C = prompt("C belgisini kiriting");
+console.log(toString.(str.replace(C, C + C)));
+*/
 
+// Buyog'i darsda qilinishi kerak bo'lgan lekin ulgurilmaganlari bular
 /*
 let str = prompt("String kiriting");
 let str2 = str.toLowerCase(str);
