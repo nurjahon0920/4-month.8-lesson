@@ -45,6 +45,18 @@ let reversedString = str.split("").reverse().join("");
 console.log(reversedString);
 */
 //////////*String-6*//////////
+/*
+function getStringStars(str, N) {
+  let result = "";
+  for (let i = 0; i < str.length; i++) {
+    result += str[i] + "*".repeat(N);
+  }
+  return result;
+}
+let srt = "salom";
+let N = parseInt(prompt("Son kiriting"));
+console.log(getStringStars("salom", N));
+*/
 //////////*String-7*//////////
 /*
 function calculationNumber(str) {
@@ -60,6 +72,7 @@ let answer = prompt("Qiymat kiriting");
 console.log(calculationNumber(answer));
 */
 //////////*String-8*//////////
+
 //////////*String-9*//////////
 /*
 let str = prompt("String kiriting");
@@ -78,12 +91,17 @@ console.log(str3);
 
 //////////*String-12*/////////
 /*
+function getInverseNumber(n) {
+  let reversedNumber = n.split("").reverse().join("");
+  return reversedNumber;
+}
 let n = prompt("Number kiriting");
-let reversedNumber = n.split("").reverse().join("");
-console.log(reversedNumber);
+console.log(getInverseNumber(n));
 */
 //////////*String-13*/////////
+
 //////////*String-14*/////////
+
 //////////*String-15*/////////
 
 /*
