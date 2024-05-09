@@ -39,9 +39,26 @@ let N = prompt("N sonini kiriting");
 console.log(A.repeat(N));
 */
 //////////*String-5*//////////
-
+/*
+let str = prompt("String kiriting");
+let reversedString = str.split("").reverse().join("");
+console.log(reversedString);
+*/
 //////////*String-6*//////////
 //////////*String-7*//////////
+/*
+function calculationNumber(str) {
+  let calculate = 0;
+  for (let char of str) {
+    if (!isNaN(char)) {
+      calculate++;
+    }
+  }
+  return calculate;
+}
+let answer = prompt("Qiymat kiriting");
+console.log(calculationNumber(answer));
+*/
 //////////*String-8*//////////
 //////////*String-9*//////////
 /*
@@ -50,8 +67,21 @@ let str2 = str.toLowerCase(str);
 console.log(str2);
 */
 //////////*String-10*/////////
+/*
+let str = prompt("String kiriting");
+let str2 = str.toLowerCase(str);
+let str3 = str.toUpperCase(str);
+console.log(str2);
+console.log(str3);
+*/
 //////////*String-11*/////////
+
 //////////*String-12*/////////
+/*
+let n = prompt("Number kiriting");
+let reversedNumber = n.split("").reverse().join("");
+console.log(reversedNumber);
+*/
 //////////*String-13*/////////
 //////////*String-14*/////////
 //////////*String-15*/////////
