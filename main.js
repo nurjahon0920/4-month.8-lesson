@@ -101,7 +101,14 @@ console.log(getInverseNumber(n));
 //////////*String-13*/////////
 
 //////////*String-14*/////////
-
+/*
+let s1 = prompt("1-Stringni qiymatini kiriting");
+let s2 = prompt("2-Stringni qiymatini kiriting");
+let n1 = +prompt("n1 ning qiymatini kiriting");
+let n2 = +prompt("n2 ning qiymatini kiriting");
+let result = s1.slice(0, n1) + s2.slice(-n2);
+console.log(result);
+*/
 //////////*String-15*/////////
 /*
 let str = prompt("String kiriting");
